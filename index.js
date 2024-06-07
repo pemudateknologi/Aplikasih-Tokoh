@@ -25,3 +25,10 @@ delet.addEventListener("click", function () {
 settins.addEventListener("click", function () {
   settins.classList.toggle("active");
 });
+
+const dataBarang = document.getElementById("data-barang");
+const home = document.querySelector(".container-home");
+
+dataBarang.addEventListener("click", function () {
+  home.remove("container-home");
+});
